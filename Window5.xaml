@@ -1,0 +1,22 @@
+﻿<Window x:Class="WpfApp1.Window5"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Window5" Height="400" Width="400">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF507AAE" Offset="0.141"/>
+                <GradientStop Color="#FF2495F5" Offset="1"/>
+                <GradientStop Color="#FFFAFAFA" Offset="0.344"/>
+                <GradientStop Color="#FF050709" Offset="0.045"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <DataGrid x:Name="DataGrid" HorizontalAlignment="Left" Height="217" Margin="81,93,0,0" VerticalAlignment="Top" Width="232" SelectionChanged="DataGrid_SelectionChanged"/>
+        <Button Content="Go back" Margin="25,30,300,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Button x:Name="Load" Content="Show all the entries" HorizontalAlignment="Center" Margin="0,328,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.799,0.637" Height="30" Width="152" Click="Load_Click"/>
+    </Grid>
+</Window>

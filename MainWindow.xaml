@@ -1,0 +1,26 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="400">
+    <Grid RenderTransformOrigin="0.539,0.432">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF507AAE" Offset="0.141"/>
+                <GradientStop Color="#FF2495F5" Offset="1"/>
+                <GradientStop Color="#FFFAFAFA" Offset="0.344"/>
+                <GradientStop Color="#FF050709" Offset="0.045"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <TextBlock HorizontalAlignment="Center" Margin="0,57,0,0" TextWrapping="Wrap" Text="Welcome to Pisatelnitsa!" VerticalAlignment="Top" FontFamily="Bahnschrift Condensed" FontSize="25" Foreground="White"/>
+        <Button Content="Log in" HorizontalAlignment="Left" Margin="61,246,0,0" VerticalAlignment="Top" Height="52" Width="116" Background="#FFE9E9E9" RenderTransformOrigin="0.5,0.5" Click="Button_Click"/>
+        <Button Content="Sign Up" HorizontalAlignment="Left" Margin="236,248,0,0" VerticalAlignment="Top" Height="47" Width="111" Click="Button_Click_1"/>
+        <Image HorizontalAlignment="Left" Height="114" Margin="142,106,0,0" VerticalAlignment="Top" Width="129" Source="C:\Users\User\Desktop\CAS\unnamed (14).jpg"/>
+        <Image HorizontalAlignment="Left" Height="114" Margin="129,115,0,0" VerticalAlignment="Top" Width="129" Source="H:\2022-2023\Pisatelnitsa.jpg"/>
+
+    </Grid>
+
+</Window>
